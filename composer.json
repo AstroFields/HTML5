@@ -1,6 +1,6 @@
 {
     "name"        : "WCM/AstroFields/HTML5",
-    "version"     : "0.1.0",
+    "version"     : "0.1.0-alpha1",
     "description" : "HTML5 Extension for the AstroFields framework",
     "keywords"    : [ "wordpress", "forms", "fields" ],
     "homepage"    : "https://github.com/AstroFields/HTML5",
@@ -19,6 +19,12 @@
         "php"                  : ">=5.3",
         "WCM/AstroFields/Core" : "*"
     },
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/Core"
+        }
+    ],
     "autoload"    : {
         "psr-4" : {
             "WCM\\AstroFields\\HTML5\\" : "src/"
