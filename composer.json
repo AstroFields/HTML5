@@ -1,5 +1,5 @@
 {
-    "name"        : "WCM/AstroFields/HTML5",
+    "name"        : "wecodemore/astrofields-html5",
     "version"     : "0.1.0-alpha1",
     "description" : "HTML5 Extension for the AstroFields framework",
     "keywords"    : [ "wordpress", "forms", "fields" ],
