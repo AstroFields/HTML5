@@ -4,16 +4,16 @@ namespace WCM\AstroFields\HTML5\Templates;
 
 use WCM\AstroFields\Core\Templates\TemplateInterface,
 	WCM\AstroFields\Core\Templates\PrintableInterface,
-	WCM\AstroFields\Core\Receivers\FieldInterface,
+	WCM\AstroFields\Core\Receivers\EntityProviderInterface,
 	WCM\AstroFields\Core\Receivers\AttributeAwareInterface;
 
 class ColorFieldTmpl implements TemplateInterface, PrintableInterface
 {
-	/** @type FieldInterface|AttributeAwareInterface */
+	/** @type EntityProviderInterface|AttributeAwareInterface */
 	private $data;
 
 	/**
-	 * @param FieldInterface|AttributeAwareInterface $data
+	 * @param EntityProviderInterface|AttributeAwareInterface $data
 	 * @return $this
 	 */
 	public function attach( $data )

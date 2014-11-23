@@ -4,7 +4,7 @@ namespace WCM\AstroFields\HTML5\Templates;
 
 use WCM\AstroFields\Core\Templates\TemplateInterface,
 	WCM\AstroFields\Core\Templates\PrintableInterface,
-	WCM\AstroFields\Core\Receivers\FieldInterface,
+	WCM\AstroFields\Core\Receivers\EntityProviderInterface,
 	WCM\AstroFields\Core\Receivers\OptionAwareInterface,
 	WCM\AstroFields\Core\Receivers\AttributeAwareInterface;
 
@@ -14,7 +14,7 @@ class NumberFieldTmpl implements TemplateInterface, PrintableInterface
 	private $data;
 
 	/**
-	 * @param FieldInterface $data
+	 * @param EntityProviderInterface $data
 	 * @return $this
 	 */
 	public function attach( $data )
