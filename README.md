@@ -1,5 +1,10 @@
 # AstroFields HTML5 library
 
+[![Latest Stable Version](https://poser.pugx.org/wecodemore/astrofields-html5/v/stable.svg)](https://packagist.org/packages/wecodemore/astrofields-html5)
+[![Latest Unstable Version](https://poser.pugx.org/wecodemore/astrofields-html5/v/unstable.svg)](https://packagist.org/packages/wecodemore/astrofields-html5)
+[![Total Downloads](https://poser.pugx.org/wecodemore/astrofields-html5/downloads.svg)](https://packagist.org/packages/wecodemore/astrofields-html5)
+[![License](https://poser.pugx.org/wecodemore/astrofields-html5/license.svg)](https://packagist.org/packages/wecodemore/astrofields-html5)
+
 Currently there are classes for the following types:
 
 `color`, `email`, `number`, `range`, `tel` and `url`

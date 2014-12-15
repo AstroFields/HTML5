@@ -2,19 +2,18 @@
 
 namespace WCM\AstroFields\HTML5\Templates;
 
-use WCM\AstroFields\Core\Templates\TemplateInterface,
-	WCM\AstroFields\Core\Templates\PrintableInterface,
-	WCM\AstroFields\Core\Receivers\EntityProviderInterface,
-	WCM\AstroFields\Core\Receivers\OptionAwareInterface,
-	WCM\AstroFields\Core\Receivers\AttributeAwareInterface;
+use WCM\AstroFields\Core\Templates;
+use WCM\AstroFields\Core\Receivers;
 
-class RangeFieldTmpl implements TemplateInterface, PrintableInterface
+class RangeFieldTmpl implements
+	Templates\TemplateInterface,
+	Templates\PrintableInterface
 {
-	/** @type AttributeAwareInterface|OptionAwareInterface */
+	/** @type Receivers\AttributeAwareInterface | Receivers\OptionAwareInterface */
 	private $data;
 
 	/**
-	 * @param EntityProviderInterface $data
+	 * @param Receivers\EntityProviderInterface $data
 	 * @return $this
 	 */
 	public function attach( $data )
